@@ -1,0 +1,29 @@
+{
+  "name": "goplus-x402-examples",
+  "version": "1.0.0",
+  "description": "Example code for using GoPlus Security APIs with x402 payment protocol",
+  "type": "module",
+  "scripts": {
+    "fetch": "node fetch-example.js",
+    "axios": "node axios-example.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "x402",
+    "goplus",
+    "security",
+    "blockchain",
+    "payment",
+    "crypto"
+  ],
+  "author": "GoPlus Security",
+  "license": "ISC",
+  "packageManager": "pnpm@10.7.0",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "viem": "^2.21.54",
+    "x402-axios": "^0.6.6",
+    "x402-fetch": "^0.6.6"
+  }
+}
